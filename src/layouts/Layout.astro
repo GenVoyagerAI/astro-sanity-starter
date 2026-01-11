@@ -57,6 +57,7 @@ function formatCanonicalURL(url: string | URL) {
         <!-- Page Metadata -->
         <link rel="canonical" href={formatCanonicalURL(canonicalURL)} />
         <meta name="description" content={description} />
+        <meta name="robots" content="noindex, nofollow" />
 
         <!-- Open Graph / Facebook -->
         <meta property="og:url" content={formatCanonicalURL(canonicalURL)} />
